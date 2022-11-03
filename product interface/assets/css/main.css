@@ -314,106 +314,157 @@
         css ở đây nha phương 
 
     */
-/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
-/* #footer {
-    background-color: rgb(180,225,230);
-    padding: 20px 0 50px 0;
+#sanpham {
+    display: flex;
+    clear: both;
+    margin-top: 20px;
+    background-color: #FFF9F9;
+}
+#danhmuc {
+    flex-wrap: wrap;
+    width: 20%;
+    display: inline-block;
+    margin: 20px 0 0 20px; 
+}
+#danhsachsp {
+    width: 80%;
+    display: inline-block;
+}
+#thuonghieu {
+    margin-left: 50px;
+    
+}
+.list-sp a, .list-sp{
+    text-decoration: none;        
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgba(0, 0, 0, 0.705);
+}
+.list-sp :hover {
+    background-color: #B4E1E6;
+    color: rgb(1, 0, 0);
+    text-decoration: none;
+}
+h2{
+    font-weight: bolder;
+    font-size: 25px;
+}
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.anhqc {
+    width: 600px;
+    height: 350px;
     margin: 0;
+    padding: 0;
+}
+.lg-lh {
+    width: 150px;
+    border-radius: 30px;
+}
+.ds-loc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.loc {
+    width: 250px;
+    height: 30px;
+}
+#ds-sp{
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+
+}
+.product {
+    height: fit-content;
+    margin: 20px 60px 20px 0px;
+    justify-content: space-around;
+}
+.product img {
+    width: fix-content;
+    height: 250px;
+}
+.th-sp {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.name-sp {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.price {
+    text-align: center;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+.price-1 {
+    text-align: center;
+    font-size: 18px;
+}
+.logo-ft {
+    padding: 30px;
+}  
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+.footer {
+    background-color: #B4E1E6;
+    height: 460px;
 }
 
 #logo-shop {
     width: 90px;
-    height: 70px;
-    margin-bottom: 0;
 }
 
-hr {
-        color: black;
-        background-color: black;
-        border: none;
-    }
 #hr1 {
     width: 900px;
-    height: 0.97px;
-    align-content: center;
+    height: 1px;
     color: black;
-    margin-top: 0;
+    background-color: #000;
 }
 
 #hr2 {
-    width: 1100px;
+    width: 1300px;
     height: 1px;
-    align-content: center;
     color: black;
-    margin-bottom: 0;
+    background-color: #000;
 }
 
 #Context-footer {
     display: flex;
-    content: "";
-    clear: both;
-    margin-top: 0;
-    margin-left: 120px;
-    padding: 0;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    margin: 25px 500px 25px 113px;
+    justify-content: space-between;
+    line-height: 30px;
 }
 
-h4 {
-    font-size: 20px;
-}
-
-#footer-1 {
-    text-align: left;
-    margin-right: 50px;
-    padding: 0;
-}
-#footer-1 p {
+.font-1 {
     font-size: 15px;
+    font-weight: 800;
 }
 
-#footer-2 { 
-    text-align: left;
-    margin-left: 10px;
-    margin-right: 50px;
-}
-#footer-2-1 {
-    margin: 0;
-    padding: 0;
-    column-count: 2;
-    clear: both;
-    justify-content: space-around;
-}
-#footer-2-1 a,#footer-3 a {
-
-    color: black;
-    font-size: 15px;
-    text-decoration: none;
+.font-2 {
+    font-size: 13px;
 }
 
-
-#footer-3 {
-    margin-right: 50px;
+.font-3 {
+    padding-right: 5px;
 }
 
-#map {
-    width: 230px;
-    height: 180px;
-    margin-top: 10px;
-    padding-right: 0;
-    flex: 25%;
+.font-4 {
+    font-size: 25px;
 }
 
-.logo-f {
-    border-radius: 30px ;
-    margin-left: 50px;
+.bct {
+    padding: 0px 400px 0px 850px;
 }
 
-#context-2 {
-    margin-left: 350px;
-    display: flex;
-    clear: both;
-} */
+.map {
+    margin: -240px 0px 0px 1130px;
+}
 /* --------------------------------------------------------------------------------------------------------------- */
 .auth-form-container {
     padding: 32px;
