@@ -344,7 +344,72 @@
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
+.hr3 {
+    width: 1000px;
+    height: 1px;
+    color: red;
+    background-color: red;
+}
 /* ------------------------------------------------------------------------------------------------------------------------------- */
+.container-4 {
+    display:flex;
+}
+
+.hinh12 {
+    padding: 50px 0px 50px 350px;
+}
+
+.diemso {
+    padding: 200px 350px 50px 150px;
+}
+
+.diemso-1 {
+    font-size: 15px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.hinh-2 {
+    width: 300px;
+}
+.container-6 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.list-member {
+    display: flex;
+    font-size: 15px;
+}
+
+.list-name {
+    margin: 100px 50px 0px 0px;
+}
+
+.list-mssv{
+    margin: 100px 0px 0px 0px;
+}
+
+.day {
+    display:flex;
+    margin-left: 350px;
+    margin-top: -70px;
+}
+.nhom {
+    margin-left: 450px;
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hinh {
+    margin-left: 100px;
+}
+
+.hinh-3 {
+    width: 400px;
+}
 .store-8 {
     display:flex;
     justify-content: space-between;
