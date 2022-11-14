@@ -10,3 +10,6 @@
 <br>
 4/ introduction interface - giao diện giới thiệu
 <br>
+5/ Đăng ký
+<br>
+6/ Đăng nhập
